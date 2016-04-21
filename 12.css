@@ -1,0 +1,133 @@
+*{
+	box-sizing:border-box;
+}
+
+/*固定宽度*/
+.container{
+	height: auto;
+	margin-left:auto;
+	margin-right: auto; 
+}
+/*全屏宽度*/
+.container-fluid{
+	height:auto;
+}
+.container:before,.container:after,.container-fluid:before,.container-fluid:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.container [class*=col-],.container-fluid [class*=col-]{
+	display: block;
+	float: left;
+}
+
+@media screen and (min-width: 1200px){
+	.container{
+		width: 1200px;
+	}
+	.container .col-lg-1,.container-fluid .col-lg-1{
+		width: 8.333333%;
+	}
+	.container .col-lg-2,.container-fluid .col-lg-2{
+		width: 16.666667%;
+	}
+	.container .col-lg-3,.container-fluid .col-lg-3{
+		width: 25%;
+	}
+	.container .col-lg-4,.container-fluid .col-lg-4{
+		width: 33.333333%;
+	}
+	.container .col-lg-5,.container-fluid .col-lg-5{
+		width: 41.666667%;
+	}
+	.container .col-lg-6,.container-fluid .col-lg-6{
+		width: 50%;
+	}
+	.container .col-lg-7,.container-fluid .col-lg-7{
+		width: 58.333333%;
+	}
+	.container .col-lg-8,.container-fluid .col-lg-8{
+		width: 66.666667%;
+	}
+	.container .col-lg-9,.container-fluid .col-lg-9{
+		width: 75%;
+	}
+	.container .col-lg-10,.container-fluid .col-lg-10{
+		width: 83.333333%;
+	}
+	.container .col-lg-11,.container-fluid .col-lg-11{
+		width: 91.666667%;
+	}
+	.container .col-lg-12,.container-fluid .col-lg-12{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.container .display,.container-fluid .display{
+		display: none;
+	}
+	.container{
+		width: 1000px;
+	}
+	.container .col-mg-1,.container-fluid .col-mg-1{
+		width: 8.333333%;
+	}
+	.container .col-mg-2,.container-fluid .col-mg-2{
+		width: 16.666667%;
+	}
+	.container .col-mg-3,.container-fluid .col-mg-3{
+		width: 25%;
+	}
+	.container .col-mg-4,.container-fluid .col-mg-4{
+		width: 33.333333%;
+	}
+	.container .col-mg-5,.container-fluid .col-mg-5{
+		width: 41.666667%;
+	}
+	.container .col-mg-6,.container-fluid .col-mg-6{
+		width: 50%;
+	}
+	.container .col-mg-7,.container-fluid .col-mg-7{
+		width: 58.333333%;
+	}
+	.container .col-mg-8,.container-fluid .col-mg-8{
+		width: 66.666667%;
+	}
+	.container .col-mg-9,.container-fluid .col-mg-9{
+		width: 75%;
+	}
+	.container .col-mg-10,.container-fluid .col-mg-10{
+		width: 83.333333%;
+	}
+	.container .col-mg-11,.container-fluid .col-mg-11{
+		width: 91.666667%;
+	}
+	.container .col-mg-12,.container-fluid .col-mg-12{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
